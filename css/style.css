@@ -1,0 +1,20 @@
+/* SM breakpoint */
+/* @media (min-width: 576px) {.w-sm-70 { width: 70%!important; }} */
+
+/* MD breakpoint*/
+/* @media (min-width: 768px) {.w-md-70 { width: 70%!important; }}  */
+
+/* LG breakpoint */
+/* @media (min-width: 992px) {body .w-lg-70 {width: 70% !important;}} */
+
+@font-face {
+    font-family: mont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.w-70{
+    width: 70%;
+}
+.h-70{
+    height: 70vh;
+}
