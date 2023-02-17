@@ -1,3 +1,4 @@
+/*dfe9fa-f766a7-f5358b-a81457-ffffff*/
 /* SM breakpoint */
 /* @media (min-width: 576px) {.w-sm-70 { width: 70%!important; }} */
 
@@ -11,10 +12,58 @@
     font-family: mont;
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
+/* general */
+*{direction: rtl;}
+*::not(span){
+    display: block;
+}
+:root{
+    --bs-link-color: #a81457 !important;
+}
+head{display: none;}
+.bg-ligt-blue{
+    background-color: #dfe9fa;
+}
+.bg-light-pink{
+    background-color: #f766a7 !important;
+}
+.text-dark-red{
+    color: #a81457 !important;
+}
+.text-shadow{
+    text-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+.flex-1{
+    flex: 1;
+}
+.mr-2{
+    margin-right: 2rem;
+}
+.pt-10{
+    padding-top: 10vh;
+}
+.border-radius-2{
+    border-radius: 20px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-shadow: 2px 2px rgba(0, 0, 0, .3);
+}
+/* navbar */
+nav.nav {
+    align-items:center;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    width: 100%;
+}
+.nav .nav-link.active{
+    border: 1px dashed rgba(0, 0, 0, .3) !important;
+}
+.nav-item img{
+    max-height: 100px;
+}
 
-.w-70{
-    width: 70%;
-}
-.h-70{
-    height: 70vh;
-}
+/* SM breakpoint */
+@media (min-width: 576px) {body .w-sm-25 { width: 25%!important; }}
