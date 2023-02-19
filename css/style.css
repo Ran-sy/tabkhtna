@@ -45,6 +45,12 @@ head{display: none;}
 .border-radius-2{
     border-radius: 20px;
 }
+.hidden{
+    display: none !important;
+}
+.d-block{
+    display: block !important;
+}
 .link{
     text-decoration: none;
 }
